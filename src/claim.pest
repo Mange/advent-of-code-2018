@@ -1,0 +1,9 @@
+WHITESPACE = _{ " " }
+
+uint = @{ ASCII_DIGIT+ }
+
+id = { "#" ~ uint }
+position = { uint ~ "," ~ uint }
+size = { uint ~ "x" ~ uint }
+
+claim = { SOI ~ id ~ "@" ~ position ~ ":" ~ size ~ EOI }

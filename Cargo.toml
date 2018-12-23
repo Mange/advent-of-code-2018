@@ -1,0 +1,10 @@
+[package]
+name = "day-3"
+version = "0.1.0"
+authors = ["Magnus Bergmark <magnus.bergmark@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+pest = "2.0.2"
+pest_derive = "2.0.1"
+ndarray = "0.12.1"
